@@ -43,9 +43,20 @@ echo "                #                                                   #"
 echo "                #    1) Catseye                                     #"
 echo "                #    2) Ciefp                                       #"
 echo "                #                                                   #"
-echo "                #   19) STD Region / HELP / Area not listed         #"
 echo "                #                                                   #"
-echo "                #   22) EXIT & REBOOT BOX                           #"
+echo "                #                                                   #"
+echo "                #                                                   #"
+echo "                #                                                   #"
+echo "                #                                                   #"
+echo "                #                                                   #"
+echo "                #                                                   #"
+echo "                #                                                   #"
+echo "                #                                                   #"
+echo "                #                                                   #"
+echo "                #                                                   #"
+echo "                #                                                   #"
+echo "                #                                                   #"
+echo "                #   10) EXIT                                        #"
 echo "                #                                                   #"
 echo "                *****************************************************"
 echo ""
@@ -63,9 +74,8 @@ echo
 echo "            ...BOUQUETS UPDATED...                "
 echo "   You should reboot your box to reload sat.xml   "
 echo 
-echo "                  Good - Bye                      "
 echo ----------------------------------------------------
-echo && sleep 6 && clear; exit 1
+
 
 
  2 ) rm -rf /etc/enigma2/lamedb && rm -rf /etc/enigma2/*.tv && rm -rf /etc/enigma2/*.radio
@@ -77,10 +87,9 @@ echo
 echo "            ...BOUQUETS UPDATED...                "
 echo "   You should reboot your box to reload sat.xml   "
 echo 
-echo "                  Good - Bye                      "
 echo ----------------------------------------------------
-echo && sleep 6 && clear; exit 1
 
+10 ) clear; exit 1 ;;
 
 esac 
 done 
