@@ -65,8 +65,9 @@ read choice
 
 case "$choice" in
 
-1 )rm -rf /etc/enigma2/lamedb && rm -rf /etc/enigma2/*.tv && rm -rf /etc/enigma2/*.radio
-wget --no-check-certificate $CATS && sleep 2 && unzip Catseye.zip && sleep 2 && cd Catseye && cp -p satellites.xml /$BODIR && rm -rf *.xml && cp -p * /$BODIR
+1 )wget --no-check-certificate $CATS && sleep 1
+rm -rf /etc/enigma2/lamedb && rm -rf /etc/enigma2/*.tv && rm -rf /etc/enigma2/*.radio
+unzip Catseye.zip && sleep 2 && cd Catseye && cp -p satellites.xml /$BODIR && rm -rf *.xml && cp -p * /$BODIR
 wget -qO - http://127.0.0.1/web/servicelistreload?mode=0 && sleep 2 && rm -R -f $MOTOR/* 2>/dev/null
 echo && echo 
 echo ----------------------------------------------------
@@ -77,8 +78,9 @@ echo
 echo ----------------------------------------------------
 sleep 5 && exit 1
 
-2 )rm -rf /etc/enigma2/lamedb && rm -rf /etc/enigma2/*.tv && rm -rf /etc/enigma2/*.radio
-wget --no-check-certificate $CIEF && sleep 2 && unzip Ciefp.zip && sleep 2 && cd Ciefp && cp -p satellites.xml /$BODIR && rm -rf *.xml && cp -p * /$BODIR
+2 )wget --no-check-certificate $CIEF && sleep 1
+rm -rf /etc/enigma2/lamedb && rm -rf /etc/enigma2/*.tv && rm -rf /etc/enigma2/*.radio
+unzip Ciefp.zip && sleep 2 && cd Ciefp && cp -p satellites.xml /$BODIR && rm -rf *.xml && cp -p * /$BODIR
 wget -qO - http://127.0.0.1/web/servicelistreload?mode=0 && sleep 2 && rm -R -f $MOTOR/* 2>/dev/null
 echo && echo 
 echo ----------------------------------------------------
