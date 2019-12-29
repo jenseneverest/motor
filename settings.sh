@@ -75,7 +75,7 @@ echo "            ...BOUQUETS UPDATED...                "
 echo "   You should reboot your box to reload sat.xml   "
 echo 
 echo ----------------------------------------------------
-sleep 5 && exit 1
+sleep 5 && exit 1 )
 
 2 )wget --no-check-certificate $CIEF && sleep 1
 rm -rf /etc/enigma2/lamedb && rm -rf /etc/enigma2/*.tv && rm -rf /etc/enigma2/*.radio
@@ -88,7 +88,7 @@ echo "            ...BOUQUETS UPDATED...                "
 echo "   You should reboot your box to reload sat.xml   "
 echo 
 echo ----------------------------------------------------
-sleep 5 && exit 1
+sleep 5 && exit 1 )
 
 
 10 ) clear; exit 1 ;;
